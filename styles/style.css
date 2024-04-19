@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61.5px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #464646;
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+section {
+    width: 100%;
+    max-width: 1136px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.menu__link {
+    font-weight: 500;
+    color: #464646;
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.banner__imagem {
+    width: 368px;
+    height: 368px;
+    border-radius: 300rem;
+}
+
+.banner__links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.banner__links__item a {
+    color: #464646;
+    text-decoration: none;
+}
+
+.banner__links__item a:hover, .menu__link:hover {
+    color: rgb(219, 35, 219);
+}
+
+.banner__paragrafo {
+    font-size: 22px;
+    color: #464646;
+    line-height: 25.83px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.sobre {
+    padding: 64px 0;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    color: #464646;
+    padding: 32px;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.skills h2#skills {
+    margin-top: 88px;
+}
+
+.skills__linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 88px;
+}
+
+.skills__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    height: 174px;
+    width: 174px;
+
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.academic {
+    display: flex;
+    flex-direction: column;
+    color: #464646;
+    padding: 82px 0;
+    gap: 32px;
+    background-color: #EAF2FD;
+}
+
+.academic h2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.academic h2#academic {
+    margin-top: 88px;
+}
+
+.academic__courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 88px;
+    flex-wrap: wrap;
+    
+}
+
+.academic__courses__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    height: 174px;
+    width: 174px;
+    gap: 8px;
+
+    padding: 25px;
+    background-color: #fff;
+
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    color: #464646;
+    padding: 82px 0;
+}
+
+.experiencias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.experiencia__section__title {
+    text-align: center;
+    margin-bottom: 32px; 
+}
+
+.experiencia__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.experiencia__botao__repo {
+    color: #2A7AE4;
+    width: 116px;
+    height: 51px;
+    border: 1px ;
+    padding: 16px 0;
+    gap: 10px;
+    background-color: #EAF2FD;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 128px 0;
+}
+
+.formulario__contato {
+    text-align: center;
+    color: #464646;
+    line-height: 18.78px;
+}
+
+.formulario__input {
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 1rem;
+}
+
+.formulario__input:focus, .formulario__textarea:focus {
+    outline: 1px solid #b4d1fd;
+}
+
+.formulario__enviar {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formulario__textarea {
+    height: 133px;
+    border-radius: 4px;
+    border: none;
+    padding: 1rem;
+}
+
+.formulario__botao {
+    color: #FFFFFF;
+    min-width: 165px;
+    height: 51px;
+    padding: 16px 0;
+    gap: 10px;
+    background-color: #2A7AE4;
+    border: none;
+}
+
+.formulario__botao:hover {
+    background-color: #5d99e9;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.icon {
+    margin-left: 4px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.semibold {
+    font-weight: 500;
+}
+
+.bg {
+    background-color: #EAF2FD;
+}
+
+
+@media (max-width: 1024px) {
+    section {
+        max-width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .sobre, .academic, .formulario, .experiencia {
+        box-sizing: border-box;
+        padding: 1rem;
+    }
+    .menu {
+        display: none;
+    }
+    .banner, .banner__links, .skills__linha, .experiencias {
+        flex-direction: column;
+    }
+    .banner__conteudo, h1, h2, p, .academic__courses {
+        flex-wrap: wrap;
+    }
+    .banner__imagem {
+        max-width: 250px;
+        height: auto;
+    }
+    .formulario__subtext {
+        margin-bottom: .5rem;
+    }
+}
